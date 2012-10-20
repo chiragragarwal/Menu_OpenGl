@@ -1,0 +1,38 @@
+Author	: Chirag R. Agarwal
+ID	: chirag.agarwalr@gmail.com
+Problem	: Implementing a drop down menu in OpenGl
+Site	: http://agarwalchirag.wordpress.com
+
+OBJECTIVE :
+
+	Creating a drop down menu from scratch in OpenGl. Here, I've made the menu just for 'FILE' and 'EDIT'.
+	The 'FILE' menu has 4 sub-menus which further have sub-menus as follows:
+		- 'New'
+			> 'File'
+			> 'Project'
+		- 'Open'
+		- 'Save'
+		- 'Exit'
+		
+	The 'EDIT' menu has 4 sub-menus as follows:	
+		- 'Undo'
+		- 'Redo'
+		
+	The colour of the menus changes when mouse pointer is hovered above them. The menus open up and close as in any other GUI.
+	When you click on a submenu, say 'File > New > Project', this path is displayed on the terminal. Of course, any other functionality can also be added to it. The program opens up a similar new window on clicking 'Open' and exits on clicking 'Exit'.
+
+----------------------------------------------------------------------------------------------------------------------------
+
+FILES :
+
+1) menu_final.c :
+	The only file that contains the entire code.
+	
+----------------------------------------------------------------------------------------------------------------------------
+
+HOW TO RUN MY PROGRAM ?
+
+	Windows : Simply open the code in MS Visual Studio or any other IDE. Make sure you have the OpenGl libraries present. Compile it and run. Google should help you out otherwise.
+	
+	Linux : Make sure you have installed freeglut. When compiling, use 'gcc -o exe menu_final.c -lGL -lGLU -lglut' followed by './exe'
+	
